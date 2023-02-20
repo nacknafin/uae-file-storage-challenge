@@ -71,3 +71,5 @@ docker-compose up
 It will run the app on 8000 port (you may change it by setting `LOCAL_WEB_PORT` environment parameter)
 
 To get into app UI follow `http://localhost:8000/docs` link in your browser to upload files and get info about them
+
+To run tests `python3.10 -m pytest tests/test_files.py`
